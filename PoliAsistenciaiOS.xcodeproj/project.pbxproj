@@ -17,6 +17,9 @@
 		3C14B20820A88BFB00140218 /* PoliAsistenciaiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14B20720A88BFB00140218 /* PoliAsistenciaiOSUITests.swift */; };
 		3C14B21620A91DCF00140218 /* EstadisticasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14B21520A91DCF00140218 /* EstadisticasViewController.swift */; };
 		3C14B21820A91F2200140218 /* NotificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14B21720A91F2200140218 /* NotificacionesViewController.swift */; };
+		3CF5664020AA12E9004E89C3 /* InicioSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */; };
+		3CF5664220AA17DC004E89C3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5664120AA17DC004E89C3 /* MainTabController.swift */; };
+		3CF5664420AA2594004E89C3 /* InicioNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		3C14B20920A88BFB00140218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C14B21520A91DCF00140218 /* EstadisticasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadisticasViewController.swift; sourceTree = "<group>"; };
 		3C14B21720A91F2200140218 /* NotificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesViewController.swift; sourceTree = "<group>"; };
+		3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionViewController.swift; sourceTree = "<group>"; };
+		3CF5664120AA17DC004E89C3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +112,15 @@
 				3C14B1E520A88BF800140218 /* AppDelegate.swift */,
 				3C14B1E720A88BF900140218 /* InicioViewController.swift */,
 				3C14B21720A91F2200140218 /* NotificacionesViewController.swift */,
+				3CF5664120AA17DC004E89C3 /* MainTabController.swift */,
 				3C14B1E920A88BF900140218 /* HorarioViewController.swift */,
 				3C14B1EB20A88BF900140218 /* Main.storyboard */,
 				3C14B21520A91DCF00140218 /* EstadisticasViewController.swift */,
 				3C14B1EE20A88BFB00140218 /* Assets.xcassets */,
 				3C14B1F020A88BFB00140218 /* LaunchScreen.storyboard */,
 				3C14B1F320A88BFB00140218 /* Info.plist */,
+				3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */,
+				3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */,
 			);
 			path = PoliAsistenciaiOS;
 			sourceTree = "<group>";
@@ -267,8 +276,11 @@
 			files = (
 				3C14B21820A91F2200140218 /* NotificacionesViewController.swift in Sources */,
 				3C14B1EA20A88BF900140218 /* HorarioViewController.swift in Sources */,
+				3CF5664220AA17DC004E89C3 /* MainTabController.swift in Sources */,
 				3C14B1E620A88BF800140218 /* AppDelegate.swift in Sources */,
+				3CF5664420AA2594004E89C3 /* InicioNavigationController.swift in Sources */,
 				3C14B21620A91DCF00140218 /* EstadisticasViewController.swift in Sources */,
+				3CF5664020AA12E9004E89C3 /* InicioSesionViewController.swift in Sources */,
 				3C14B1E820A88BF900140218 /* InicioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

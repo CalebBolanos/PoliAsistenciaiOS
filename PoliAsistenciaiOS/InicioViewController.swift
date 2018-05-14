@@ -9,8 +9,15 @@ import UIKit
 
 class InicioViewController: UIViewController {
 
+    @IBOutlet weak var usuario: UILabel!
+    @IBOutlet weak var idPersona: UILabel!
+    
+    var usr: String?
+    var id: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
+        usuario.text = usr
+        idPersona.text = "\(String(describing: id))"
     }
 
     override func didReceiveMemoryWarning() {
