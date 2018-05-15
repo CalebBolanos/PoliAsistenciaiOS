@@ -10,9 +10,14 @@ import UIKit
 
 class NotificacionesViewController: UIViewController {
 
+    var usr : String?
+    var id : Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("notificaciones")
+        print(usr!)
+        print(id!)
     }
 
     override func didReceiveMemoryWarning() {

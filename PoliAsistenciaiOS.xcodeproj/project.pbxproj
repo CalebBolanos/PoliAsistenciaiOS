@@ -17,6 +17,9 @@
 		3C14B20820A88BFB00140218 /* PoliAsistenciaiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14B20720A88BFB00140218 /* PoliAsistenciaiOSUITests.swift */; };
 		3C14B21620A91DCF00140218 /* EstadisticasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14B21520A91DCF00140218 /* EstadisticasViewController.swift */; };
 		3C14B21820A91F2200140218 /* NotificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14B21720A91F2200140218 /* NotificacionesViewController.swift */; };
+		3C203AFE20AA793F00DD6B0C /* HorarioNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C203AFD20AA793F00DD6B0C /* HorarioNavigationController.swift */; };
+		3C203B0020AA891700DD6B0C /* EstadisticasNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C203AFF20AA891700DD6B0C /* EstadisticasNavigationController.swift */; };
+		3C203B0220AA897E00DD6B0C /* NotificacionesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C203B0120AA897E00DD6B0C /* NotificacionesNavigationController.swift */; };
 		3CF5664020AA12E9004E89C3 /* InicioSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */; };
 		3CF5664220AA17DC004E89C3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5664120AA17DC004E89C3 /* MainTabController.swift */; };
 		3CF5664420AA2594004E89C3 /* InicioNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */; };
@@ -56,6 +59,9 @@
 		3C14B20920A88BFB00140218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C14B21520A91DCF00140218 /* EstadisticasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadisticasViewController.swift; sourceTree = "<group>"; };
 		3C14B21720A91F2200140218 /* NotificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesViewController.swift; sourceTree = "<group>"; };
+		3C203AFD20AA793F00DD6B0C /* HorarioNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioNavigationController.swift; sourceTree = "<group>"; };
+		3C203AFF20AA891700DD6B0C /* EstadisticasNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadisticasNavigationController.swift; sourceTree = "<group>"; };
+		3C203B0120AA897E00DD6B0C /* NotificacionesNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesNavigationController.swift; sourceTree = "<group>"; };
 		3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionViewController.swift; sourceTree = "<group>"; };
 		3CF5664120AA17DC004E89C3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioNavigationController.swift; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				3C14B1F320A88BFB00140218 /* Info.plist */,
 				3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */,
 				3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */,
+				3C203AFD20AA793F00DD6B0C /* HorarioNavigationController.swift */,
+				3C203AFF20AA891700DD6B0C /* EstadisticasNavigationController.swift */,
+				3C203B0120AA897E00DD6B0C /* NotificacionesNavigationController.swift */,
 			);
 			path = PoliAsistenciaiOS;
 			sourceTree = "<group>";
@@ -277,8 +286,11 @@
 				3C14B21820A91F2200140218 /* NotificacionesViewController.swift in Sources */,
 				3C14B1EA20A88BF900140218 /* HorarioViewController.swift in Sources */,
 				3CF5664220AA17DC004E89C3 /* MainTabController.swift in Sources */,
+				3C203AFE20AA793F00DD6B0C /* HorarioNavigationController.swift in Sources */,
+				3C203B0220AA897E00DD6B0C /* NotificacionesNavigationController.swift in Sources */,
 				3C14B1E620A88BF800140218 /* AppDelegate.swift in Sources */,
 				3CF5664420AA2594004E89C3 /* InicioNavigationController.swift in Sources */,
+				3C203B0020AA891700DD6B0C /* EstadisticasNavigationController.swift in Sources */,
 				3C14B21620A91DCF00140218 /* EstadisticasViewController.swift in Sources */,
 				3CF5664020AA12E9004E89C3 /* InicioSesionViewController.swift in Sources */,
 				3C14B1E820A88BF900140218 /* InicioViewController.swift in Sources */,

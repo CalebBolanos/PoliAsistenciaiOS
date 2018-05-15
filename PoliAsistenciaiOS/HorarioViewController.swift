@@ -9,9 +9,16 @@
 import UIKit
 
 class HorarioViewController: UIViewController {
-
+    
+    var usr : String?
+    var id : Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("horario")
+        print(usr!)
+        print(id!)
+        
     }
 
     override func didReceiveMemoryWarning() {

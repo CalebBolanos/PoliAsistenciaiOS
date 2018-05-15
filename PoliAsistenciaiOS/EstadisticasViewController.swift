@@ -10,8 +10,14 @@ import UIKit
 
 class EstadisticasViewController: UIViewController {
 
+    var usr : String?
+    var id : Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("estadisticas")
+        print(usr!)
+        print(id!)
     }
 
     override func didReceiveMemoryWarning() {
