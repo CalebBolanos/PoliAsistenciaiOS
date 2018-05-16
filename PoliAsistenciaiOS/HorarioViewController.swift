@@ -10,14 +10,21 @@ import UIKit
 
 class HorarioViewController: UIViewController {
     
-    var usr : String?
-    var id : Int?
+    let sesion = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("horario")
-        print(usr!)
-        print(id!)
+        let idPer = sesion.integer(forKey: "idPer")
+        let idTipo = sesion.integer(forKey: "idTipo")
+        let nombre = sesion.string(forKey: "nombre")
+        let paterno = sesion.string(forKey: "paterno")
+        let materno = sesion.string(forKey: "materno")
+        let genero = sesion.string(forKey: "genero")
+        let numero = sesion.string(forKey: "num")
+        let nacimiento = sesion.string(forKey: "nacimiento")
+        let urlImagen = sesion.string(forKey: "urlImagen")
+        
+        print("horario \(idPer) \(idTipo) \(nombre!) \(paterno!) \(materno!) \(genero!) \(numero!) \(nacimiento!) \(genero!) \(urlImagen!)")
         
     }
 

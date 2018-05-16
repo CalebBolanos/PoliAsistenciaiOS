@@ -21,6 +21,8 @@
 		3C203B0020AA891700DD6B0C /* EstadisticasNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C203AFF20AA891700DD6B0C /* EstadisticasNavigationController.swift */; };
 		3C203B0220AA897E00DD6B0C /* NotificacionesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C203B0120AA897E00DD6B0C /* NotificacionesNavigationController.swift */; };
 		3C203B0420AB68D700DD6B0C /* ConfiguracionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C203B0320AB68D700DD6B0C /* ConfiguracionTableViewController.swift */; };
+		3C3E2C7D20ABAFE2007A2E84 /* CambiarContrasenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E2C7C20ABAFE2007A2E84 /* CambiarContrasenaViewController.swift */; };
+		3C3E2C7F20ABB042007A2E84 /* CambiarCorreoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E2C7E20ABB042007A2E84 /* CambiarCorreoViewController.swift */; };
 		3CF5664020AA12E9004E89C3 /* InicioSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */; };
 		3CF5664220AA17DC004E89C3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5664120AA17DC004E89C3 /* MainTabController.swift */; };
 		3CF5664420AA2594004E89C3 /* InicioNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */; };
@@ -64,6 +66,8 @@
 		3C203AFF20AA891700DD6B0C /* EstadisticasNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadisticasNavigationController.swift; sourceTree = "<group>"; };
 		3C203B0120AA897E00DD6B0C /* NotificacionesNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesNavigationController.swift; sourceTree = "<group>"; };
 		3C203B0320AB68D700DD6B0C /* ConfiguracionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracionTableViewController.swift; sourceTree = "<group>"; };
+		3C3E2C7C20ABAFE2007A2E84 /* CambiarContrasenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambiarContrasenaViewController.swift; sourceTree = "<group>"; };
+		3C3E2C7E20ABB042007A2E84 /* CambiarCorreoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambiarCorreoViewController.swift; sourceTree = "<group>"; };
 		3CF5663F20AA12E9004E89C3 /* InicioSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionViewController.swift; sourceTree = "<group>"; };
 		3CF5664120AA17DC004E89C3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		3CF5664320AA2594004E89C3 /* InicioNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioNavigationController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				3C203AFF20AA891700DD6B0C /* EstadisticasNavigationController.swift */,
 				3C203B0120AA897E00DD6B0C /* NotificacionesNavigationController.swift */,
 				3C203B0320AB68D700DD6B0C /* ConfiguracionTableViewController.swift */,
+				3C3E2C7C20ABAFE2007A2E84 /* CambiarContrasenaViewController.swift */,
+				3C3E2C7E20ABB042007A2E84 /* CambiarCorreoViewController.swift */,
 			);
 			path = PoliAsistenciaiOS;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C14B21820A91F2200140218 /* NotificacionesViewController.swift in Sources */,
+				3C3E2C7D20ABAFE2007A2E84 /* CambiarContrasenaViewController.swift in Sources */,
 				3C14B1EA20A88BF900140218 /* HorarioViewController.swift in Sources */,
 				3CF5664220AA17DC004E89C3 /* MainTabController.swift in Sources */,
 				3C203B0420AB68D700DD6B0C /* ConfiguracionTableViewController.swift in Sources */,
@@ -295,6 +302,7 @@
 				3C14B1E620A88BF800140218 /* AppDelegate.swift in Sources */,
 				3CF5664420AA2594004E89C3 /* InicioNavigationController.swift in Sources */,
 				3C203B0020AA891700DD6B0C /* EstadisticasNavigationController.swift in Sources */,
+				3C3E2C7F20ABB042007A2E84 /* CambiarCorreoViewController.swift in Sources */,
 				3C14B21620A91DCF00140218 /* EstadisticasViewController.swift in Sources */,
 				3CF5664020AA12E9004E89C3 /* InicioSesionViewController.swift in Sources */,
 				3C14B1E820A88BF900140218 /* InicioViewController.swift in Sources */,

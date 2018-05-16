@@ -17,6 +17,7 @@ class MainTabController : UITabBarController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /*
         guard let viewControllers = viewControllers else{
             return
         }
@@ -49,6 +50,6 @@ class MainTabController : UITabBarController{
                         notificacionesViewController.id = id
                     }
             }
-        }
+        }*/
     }
 }

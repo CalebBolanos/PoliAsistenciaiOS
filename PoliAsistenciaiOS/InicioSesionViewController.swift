@@ -44,11 +44,23 @@ class InicioSesionViewController: UIViewController {
             default:
                 tipoUsr = 0
             }
+            let sesion = UserDefaults.standard
+            sesion.set(1, forKey: "idPer")
+            sesion.set(tipoUsr, forKey: "idTipo")
+            sesion.set(usr, forKey: "nombre")
+            sesion.set("paterno", forKey: "paterno")
+            sesion.set("materno", forKey: "materno")
+            sesion.set("genero", forKey: "genero")
+            sesion.set("numero", forKey: "num")
+            sesion.set("nacimiento", forKey: "nacimiento")
+            sesion.set("urlImagen", forKey: "urlImagen")
             
+            
+            /*
             if let mainTabController = segue.destination as? MainTabController{
                 mainTabController.usr = usr
                 mainTabController.id = tipoUsr
-            }
+            }*/
         }
         
     }

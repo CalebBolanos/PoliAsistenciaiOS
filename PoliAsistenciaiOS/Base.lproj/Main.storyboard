@@ -119,14 +119,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-TW-gqs" customClass="inic">
-                                <rect key="frame" x="115" y="350.5" width="91" height="30"/>
+                                <rect key="frame" x="114.5" y="350.5" width="91" height="30"/>
                                 <state key="normal" title="Iniciar Sesion"/>
                                 <connections>
                                     <segue destination="49e-Tb-3d3" kind="presentation" id="Lmw-FJ-6YO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV0-zp-cx3">
-                                <rect key="frame" x="108" y="140" width="105" height="20.5"/>
+                                <rect key="frame" x="107.5" y="140" width="105" height="20.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Poli">
                                         <attributes>
@@ -258,6 +258,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="73l-DH-kaA" kind="show" id="jtd-tt-95j"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="2hJ-oq-d9w">
                                         <rect key="frame" x="0.0" y="219" width="320" height="44"/>
@@ -275,6 +278,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="WQg-1v-vqy" kind="show" id="iYd-ED-Asz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZnT-yT-qEf">
                                         <rect key="frame" x="0.0" y="263" width="320" height="44"/>
@@ -292,6 +298,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QRO-cD-DNf" kind="presentation" id="BY2-NL-3aG"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -311,7 +320,37 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b4h-Jh-6NN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="172.5" y="-3035.9154929577467"/>
+            <point key="canvasLocation" x="-1343" y="-4121"/>
+        </scene>
+        <!--Cambiar contraseña-->
+        <scene sceneID="AP3-VM-3vu">
+            <objects>
+                <viewController storyboardIdentifier="CambiarContrasenaViewController" title="Cambiar contraseña" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WQg-1v-vqy" customClass="CambiarContrasenaViewController" customModule="PoliAsistenciaiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PfE-v8-USg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="16T-RT-Ed1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NdU-qw-O2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-293" y="-3706"/>
+        </scene>
+        <!--Cambiar Correo-->
+        <scene sceneID="ZN6-tl-Doz">
+            <objects>
+                <viewController storyboardIdentifier="CambiarCorreoViewController" title="Cambiar Correo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="73l-DH-kaA" customClass="CambiarCorreoViewController" customModule="PoliAsistenciaiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdI-c7-ujO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="p54-7e-3Eu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zc3-k9-Ksl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-268" y="-4460"/>
         </scene>
         <!--Inicio-->
         <scene sceneID="p8x-2n-qWo">
@@ -386,7 +425,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGb-pG-8Fq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-825" y="-3035.9154929577467"/>
+            <point key="canvasLocation" x="-2336" y="-4122"/>
         </scene>
     </scenes>
     <resources>
